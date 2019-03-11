@@ -249,3 +249,19 @@ body .middleImg {
 body .bottomContent {
   height: 500px;
 }
+footer .footerContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #53b8de;
+  height: 50px;
+}
+footer .footerContainer .footerNav a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  padding: 0 20px;
+  color: black;
+}
+footer .footerContainer p {
+  font-size: 1.4rem;
+}

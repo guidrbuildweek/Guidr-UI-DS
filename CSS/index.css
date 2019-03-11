@@ -188,6 +188,16 @@ body .topContentContainer {
   margin: 0 auto;
   margin-bottom: 30px;
 }
+body .topContentContainer .tripsBtn {
+  text-decoration: none;
+  position: absolute;
+  left: 46%;
+  margin-top: 10px;
+  color: black;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  padding: 2px;
+}
 body .topContentContainer .topContentH2 {
   font-size: 4rem;
   text-align: center;

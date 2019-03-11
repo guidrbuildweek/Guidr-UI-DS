@@ -132,20 +132,50 @@ table {
 html {
   font-size: 62.5%;
 }
-.container {
-  padding: 20px;
-}
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #53b8de;
 }
 header h1 {
-  font-size: 3rem;
+  font-size: 5rem;
+  padding-left: 30px;
+}
+header nav {
+  padding-right: 30px;
 }
 header nav a {
   padding: 0 10px 0 10px;
   text-decoration: none;
   color: black;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+}
+.banner {
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/248833/pexels-photo-248833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 800px;
+}
+.banner .bannerContent {
+  padding-top: 200px;
+  text-align: center;
+}
+.banner .bannerContent h2 {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.banner .bannerContent .loginBtn {
+  color: white;
+  height: 40px;
+  width: 150px;
+  font-size: 2rem;
+  border: 2px solid white;
+  margin: 0 auto;
+  border-radius: 5%;
+  margin-top: 30px;
+}
+.banner .bannerContent .loginBtn p {
+  padding-top: 9px;
 }

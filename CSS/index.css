@@ -308,6 +308,9 @@ footer .footerContainer p {
 .tabs img {
   border-radius: 5%;
 }
+.tabs .stockPhoto {
+  height: 350px;
+}
 .tabs .tabs-items {
   width: 100%;
   height: 500px;

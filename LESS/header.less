@@ -5,18 +5,34 @@ header {
     align-items: center;
     background: #53b8de	;
 
+    @media(max-width: 500px) {
+        flex-direction: column;
+    }
+
     h1 {
         font-size: 5rem;
-        padding-left: 30px;
+        
     }
 
     nav {
-        padding-right: 30px;
+        
+        
+        @media(max-width: 500px){
+            display: flex;
+            flex-direction: column;
+        }
         a {
             padding: 0 10px 0 10px;
             text-decoration: none;
             color: black;
             font-size: 2rem;
+            
+
+            @media(max-width: 500px){
+                padding: 10px 0;
+                margin: 0 auto;
+                
+            }
         }
     }
 }

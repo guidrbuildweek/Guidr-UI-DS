@@ -4,6 +4,22 @@
 @import "./header.less";
 @import "./main-page.less";
 @import "./footer.less";
+@import "./about.less";
 
 
+
+.slide-in {
+    animation: slide-in 0.5s ease forwards;
+}
+
+@keyframes slide-in {
+    from{
+        transform: translateX(100%);
+        visibility: visible;
+    }
+    to{
+        transform: translateX(0%);
+
+    }
+}
 

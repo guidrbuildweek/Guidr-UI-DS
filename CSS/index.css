@@ -136,6 +136,8 @@ html {
 .container {
   width: 100%;
   margin: 0 auto;
+  position: absolute;
+  overflow: hidden;
 }
 header {
   display: flex;
@@ -265,4 +267,87 @@ footer .footerContainer .footerNav a {
 }
 footer .footerContainer p {
   font-size: 1.4rem;
+}
+.tabs {
+  width: 100%;
+}
+.tabs .tabs-items {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.tabs .tabs-item {
+  display: none;
+  width: 75%;
+}
+.tabs .tabs-item .tabs-item-title {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.tabs .tabs-item-selected {
+  display: block;
+  opacity: 0;
+}
+.tabs .tabs-links {
+  display: flex;
+  background-color: #53b8de;
+}
+.tabs .tabs-link {
+  padding: 20px 25px;
+  font-size: 24px;
+  background-color: #53b8de;
+  border-right: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+.tabs .tabs-link:hover {
+  background-color: lightblue;
+}
+.tabs .tabs-link-selected {
+  z-index: 2;
+  border-right: 1px solid blue;
+  background-color: white;
+  color: black;
+}
+.tabs .tabs-link-selected:hover {
+  background-color: white;
+}
+#myVideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  max-height: 800px;
+}
+/* Add some content at the bottom of the video/page */
+.container {
+  position: relative;
+}
+.container video {
+  position: relative;
+  z-index: 0;
+}
+.overlay {
+  position: absolute;
+  top: 25%;
+  left: 43%;
+  z-index: 1;
+  color: black;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.slide-in {
+  animation: slide-in 0.5s ease forwards;
+}
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  to {
+    transform: translateX(0%);
+  }
 }

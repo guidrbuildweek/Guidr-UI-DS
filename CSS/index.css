@@ -181,9 +181,6 @@ header nav a {
   border-radius: 7%;
   margin-top: 30px;
 }
-.banner .bannerContent .loginBtn .loginBtn:hover {
-  transform: scale(1.5);
-}
 .banner .bannerContent .loginBtn p {
   padding-top: 4px;
 }

@@ -285,7 +285,7 @@ body .bottomContent {
 }
 @media (max-width: 500px) {
   footer {
-    margin-top: 40px;
+    margin-top: 70px;
   }
 }
 footer .footerContainer {

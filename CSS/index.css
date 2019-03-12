@@ -134,7 +134,7 @@ html {
   font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 .container {
-  width: 100%;
+  max-width: 1000px;
   margin: 0 auto;
   position: absolute;
   overflow: hidden;

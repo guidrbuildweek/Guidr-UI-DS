@@ -138,6 +138,8 @@ html {
   margin: 0 auto;
   position: absolute;
   overflow: hidden;
+  border-left: 1px solid lightblue;
+  border-right: 1px solid lightblue;
 }
 header {
   display: flex;

@@ -320,6 +320,7 @@ footer .footerContainer p {
   justify-content: center;
   padding-top: 60px;
   text-align: center;
+  background: lightblue;
 }
 .tabs .tabs-item {
   display: none;
@@ -347,12 +348,12 @@ footer .footerContainer p {
   cursor: pointer;
 }
 .tabs .tabs-link:hover {
-  background-color: lightblue;
+  background-color: #9ee7ff;
 }
 .tabs .tabs-link-selected {
   z-index: 2;
   border-right: 1px solid blue;
-  background-color: white;
+  background-color: lightblue;
   color: black;
 }
 .tabs .tabs-link-selected:hover {

@@ -305,13 +305,11 @@ footer .footerContainer p {
 .tabs {
   width: 100%;
 }
-@media (max-width: 500px) {
-  .tabs {
-    display: none;
-  }
-}
 .tabs img {
   border-radius: 5%;
+}
+.tabs .stockPhoto {
+  height: 350px;
 }
 .tabs .tabs-items {
   width: 100%;
@@ -338,6 +336,11 @@ footer .footerContainer p {
 .tabs .tabs-links {
   display: flex;
   background-color: #53b8de;
+}
+@media (max-width: 500px) {
+  .tabs .tabs-links {
+    flex-direction: column;
+  }
 }
 .tabs .tabs-link {
   padding: 20px 25px;
@@ -394,7 +397,7 @@ footer .footerContainer p {
 @media (max-width: 500px) {
   .overlay {
     line-height: 50px;
-    top: 25%;
+    top: 13%;
   }
 }
 .slide-in {

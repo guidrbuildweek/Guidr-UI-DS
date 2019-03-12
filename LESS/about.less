@@ -4,10 +4,13 @@
     width: 100%;
 
     @media(max-width: 500px) {
-      display: none;
+      
     }
     img{
       border-radius: 5%;
+    }
+    .stockPhoto{
+      height: 350px;
     }
     
     .tabs-items {
@@ -18,6 +21,8 @@
       padding-top: 60px;
       text-align: center;
       background: lightblue;
+
+      
     }
     .tabs-item {
       display: none; 
@@ -38,6 +43,9 @@
       display: flex;
       background-color: @blueColor;
       
+      @media(max-width: 500px) {
+        flex-direction: column;
+      }
     }
   
     .tabs-link {
@@ -96,6 +104,6 @@
 
     @media(max-width: 500px){
       line-height: 50px;
-      top: 25%;
+      top: 13%;
     }
 }

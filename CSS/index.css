@@ -190,6 +190,9 @@ header nav a {
     margin: 0 auto;
   }
 }
+header nav a:hover {
+  font-size: 2.2rem;
+}
 @media (max-width: 650px) {
   .navBar {
     display: none;
@@ -233,6 +236,9 @@ header nav a {
 }
 .banner .bannerContent .loginBtn p {
   padding-top: 4px;
+}
+.banner .bannerContent .loginBtn:hover {
+  transform: scale(1.2);
 }
 body .topContentContainer {
   width: 95%;
@@ -316,10 +322,16 @@ body .tripPhoto {
   width: 60%;
   border-radius: 5%;
 }
+body .tripPhoto:hover {
+  transform: scale(1.1);
+}
 body .guideImg {
   border-radius: 50%;
   height: 100px;
   width: 30%;
+}
+body .guideImg:hover {
+  transform: scale(1.1);
 }
 body .middleImg {
   width: 100%;

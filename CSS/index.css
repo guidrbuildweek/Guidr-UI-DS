@@ -450,7 +450,12 @@ footer .footerContainer p {
 @media (max-width: 650px) {
   .overlay {
     line-height: 50px;
-    top: 13%;
+    top: 12%;
+  }
+}
+@media (max-width: 500px) {
+  .overlay {
+    line-height: 40px;
   }
 }
 .slide-in {

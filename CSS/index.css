@@ -206,6 +206,11 @@ header nav a {
   background-image: url("https://images.pexels.com/photos/248833/pexels-photo-248833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   height: 720px;
 }
+@media (max-width: 650px) {
+  .banner {
+    height: 550px;
+  }
+}
 .banner .bannerContent {
   padding-top: 200px;
   text-align: center;
@@ -328,9 +333,6 @@ body .bottomContent {
   height: auto;
 }
 @media (max-width: 650px) {
-  footer {
-    margin-top: 10px;
-  }
 }
 footer .footerContainer {
   display: flex;

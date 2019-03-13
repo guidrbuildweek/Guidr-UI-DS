@@ -98,26 +98,45 @@ body{
             }
 
             .topContentBox {
-                
+                display: flex;
                 width: 45%;
                 padding: 35px;
 
                 @media(max-width: 500px){
                     width: 100%;
-                    margin-left: 10px;
+                    margin-left: 10px; 
                 }
                 h3 {
                  font-size: 2.4rem;
                  margin-bottom: 7px;
                  color: #53b8de;
                 }
+
+                h2 {
+                    padding-left: 10px;
+                    font-size: 2.4rem;
+                }
     
                 p {
                     font-size: 1.7rem;
                     line-height: 2.5rem;
+                    padding-left: 10px;
                 }
             }
         }
+    }
+    
+    
+    .tripPhoto {
+        height: 150px;
+        width: 200px;
+        border-radius: 5%;
+    }
+
+    .guideImg{
+        border-radius: 50%;
+        height: 100px;
+        width: 110px;
     }
 
     .middleImg {

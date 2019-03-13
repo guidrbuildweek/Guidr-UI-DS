@@ -280,13 +280,13 @@ body .topContentContainer .topBoxDisplay .topContentBox p {
 }
 body .tripPhoto {
   height: 150px;
-  width: 200px;
+  width: 60%;
   border-radius: 5%;
 }
 body .guideImg {
   border-radius: 50%;
   height: 100px;
-  width: 110px;
+  width: 30%;
 }
 body .middleImg {
   width: 100%;
@@ -297,11 +297,11 @@ body .middleImg {
   background-position: center;
 }
 body .bottomContent {
-  height: 500px;
+  height: auto;
 }
 @media (max-width: 500px) {
   footer {
-    margin-top: 70px;
+    margin-top: 10px;
   }
 }
 footer .footerContainer {
@@ -316,6 +316,11 @@ footer .footerContainer .footerNav a {
   font-size: 1.4rem;
   padding: 0 20px;
   color: black;
+}
+@media (max-width: 500px) {
+  footer .footerContainer .footerNav a {
+    padding: 0 5px;
+  }
 }
 footer .footerContainer p {
   font-size: 1.4rem;

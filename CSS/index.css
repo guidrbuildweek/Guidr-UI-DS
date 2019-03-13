@@ -147,7 +147,7 @@ header {
   align-items: center;
   background: #53b8de;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   header {
     flex-direction: column;
   }
@@ -155,7 +155,24 @@ header {
 header h1 {
   font-size: 5rem;
 }
-@media (max-width: 500px) {
+header .menuToggle {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 3rem;
+  border-radius: 10%;
+}
+@media (max-width: 650px) {
+  header .menuToggle {
+    display: block;
+  }
+}
+@media (max-width: 650px) {
   header nav {
     display: flex;
     flex-direction: column;
@@ -167,11 +184,22 @@ header nav a {
   color: black;
   font-size: 2rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   header nav a {
     padding: 10px 0;
     margin: 0 auto;
   }
+}
+@media (max-width: 650px) {
+  .navBar {
+    display: none;
+  }
+}
+.tDiv {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 4px 0;
 }
 .banner {
   width: 100%;
@@ -226,7 +254,7 @@ body .topContentContainer .topBoxDisplay {
   flex-wrap: wrap;
   justify-content: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   body .topContentContainer .topBoxDisplay {
     flex-direction: column;
   }
@@ -241,7 +269,7 @@ body .topContentContainer .topBoxDisplay .box2 {
 body .topContentContainer .topBoxDisplay .box3 {
   border-right: 1px solid lightgrey;
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   body .topContentContainer .topBoxDisplay .box3 {
     border-bottom: 1px solid lightgrey;
   }
@@ -258,7 +286,7 @@ body .topContentContainer .topBoxDisplay .topContentBox {
   width: 45%;
   padding: 35px;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   body .topContentContainer .topBoxDisplay .topContentBox {
     width: 100%;
     margin-left: 10px;
@@ -280,13 +308,13 @@ body .topContentContainer .topBoxDisplay .topContentBox p {
 }
 body .tripPhoto {
   height: 150px;
-  width: 200px;
+  width: 60%;
   border-radius: 5%;
 }
 body .guideImg {
   border-radius: 50%;
   height: 100px;
-  width: 110px;
+  width: 30%;
 }
 body .middleImg {
   width: 100%;
@@ -297,11 +325,11 @@ body .middleImg {
   background-position: center;
 }
 body .bottomContent {
-  height: 500px;
+  height: auto;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   footer {
-    margin-top: 70px;
+    margin-top: 10px;
   }
 }
 footer .footerContainer {
@@ -316,6 +344,11 @@ footer .footerContainer .footerNav a {
   font-size: 1.4rem;
   padding: 0 20px;
   color: black;
+}
+@media (max-width: 650px) {
+  footer .footerContainer .footerNav a {
+    padding: 0 5px;
+  }
 }
 footer .footerContainer p {
   font-size: 1.4rem;
@@ -355,7 +388,7 @@ footer .footerContainer p {
   display: flex;
   background-color: #53b8de;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .tabs .tabs-links {
     flex-direction: column;
   }
@@ -387,7 +420,7 @@ footer .footerContainer p {
   min-width: 100%;
   max-height: 800px;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   #myVideo {
     max-height: 600px;
   }
@@ -412,7 +445,7 @@ footer .footerContainer p {
   margin: 0 auto;
   line-height: 70px;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .overlay {
     line-height: 50px;
     top: 13%;

@@ -3,6 +3,10 @@
     background-image: url("https://images.pexels.com/photos/248833/pexels-photo-248833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     height: 720px;
 
+    @media(max-width: 650px) {
+        height: 550px;
+    }
+
     .bannerContent{
         padding-top: 200px;
         text-align: center;
@@ -30,7 +34,17 @@
             }
         }
 
+        .loginBtn:hover {
+            transform: scale(1.2);
+        }
+        @media(max-width: 650px) {
+        padding-top: 60px;
+
+        }
+
     }
+
+    
 }
 
 
@@ -133,10 +147,17 @@ body{
         border-radius: 5%;
     }
 
+    .tripPhoto:hover {
+        transform: scale(1.1);
+    }
+
     .guideImg{
         border-radius: 50%;
         height: 100px;
         width: 30%;
+    }
+    .guideImg:hover {
+        transform: scale(1.1);
     }
 
     .middleImg {

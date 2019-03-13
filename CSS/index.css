@@ -190,6 +190,9 @@ header nav a {
     margin: 0 auto;
   }
 }
+header nav a:hover {
+  font-size: 2.2rem;
+}
 @media (max-width: 650px) {
   .navBar {
     display: none;
@@ -205,6 +208,11 @@ header nav a {
   width: 100%;
   background-image: url("https://images.pexels.com/photos/248833/pexels-photo-248833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   height: 720px;
+}
+@media (max-width: 650px) {
+  .banner {
+    height: 550px;
+  }
 }
 .banner .bannerContent {
   padding-top: 200px;
@@ -228,6 +236,14 @@ header nav a {
 }
 .banner .bannerContent .loginBtn p {
   padding-top: 4px;
+}
+.banner .bannerContent .loginBtn:hover {
+  transform: scale(1.2);
+}
+@media (max-width: 650px) {
+  .banner .bannerContent {
+    padding-top: 60px;
+  }
 }
 body .topContentContainer {
   width: 95%;
@@ -311,10 +327,16 @@ body .tripPhoto {
   width: 60%;
   border-radius: 5%;
 }
+body .tripPhoto:hover {
+  transform: scale(1.1);
+}
 body .guideImg {
   border-radius: 50%;
   height: 100px;
   width: 30%;
+}
+body .guideImg:hover {
+  transform: scale(1.1);
 }
 body .middleImg {
   width: 100%;
@@ -328,9 +350,6 @@ body .bottomContent {
   height: auto;
 }
 @media (max-width: 650px) {
-  footer {
-    margin-top: 10px;
-  }
 }
 footer .footerContainer {
   display: flex;
@@ -448,7 +467,12 @@ footer .footerContainer p {
 @media (max-width: 650px) {
   .overlay {
     line-height: 50px;
-    top: 13%;
+    top: 12%;
+  }
+}
+@media (max-width: 500px) {
+  .overlay {
+    line-height: 40px;
   }
 }
 .slide-in {

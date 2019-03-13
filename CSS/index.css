@@ -240,6 +240,11 @@ header nav a:hover {
 .banner .bannerContent .loginBtn:hover {
   transform: scale(1.2);
 }
+@media (max-width: 650px) {
+  .banner .bannerContent {
+    padding-top: 60px;
+  }
+}
 body .topContentContainer {
   width: 95%;
   margin: 0 auto;

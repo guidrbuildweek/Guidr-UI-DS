@@ -1,7 +1,9 @@
 .banner {
     width: 100%;
-    background-image: url("https://images.pexels.com/photos/248833/pexels-photo-248833.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    height: 720px;
+    background-image: url("https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     @media(max-width: 650px) {
         height: 550px;
@@ -13,7 +15,7 @@
         
         h2 {
             font-size: 5rem;
-            color: white;
+            color: black;
             text-align: center;
             margin-bottom: 30px;
         }
@@ -21,10 +23,11 @@
     
         .loginBtn {
             color: white;
+            background: @aColor;
             height: 40px;
             width: 150px;
             font-size: 3rem;
-            border: 2px solid white;
+            border: 2px solid black;
             margin: 0 auto;
             border-radius: 7%;
             margin-top: 30px;
@@ -76,6 +79,8 @@ body{
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            background: @aColor;
+            border-radius: 5%;
 
             @media(max-width: 600px){
                 flex-direction: column;

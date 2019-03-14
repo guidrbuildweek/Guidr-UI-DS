@@ -278,11 +278,17 @@ body .topContentContainer .topBoxDisplay {
 @media (max-width: 600px) {
   body .topContentContainer .topBoxDisplay {
     flex-direction: column;
+    border-radius: 0%;
   }
 }
 body .topContentContainer .topBoxDisplay .box1 {
   border-right: 1px solid lightgrey;
   border-bottom: 1px solid lightgrey;
+}
+@media (max-width: 600px) {
+  body .topContentContainer .topBoxDisplay .box1 {
+    border-right: 1px solid transparent;
+  }
 }
 body .topContentContainer .topBoxDisplay .box2 {
   border-bottom: 1px solid lightgrey;
@@ -293,11 +299,17 @@ body .topContentContainer .topBoxDisplay .box3 {
 @media (max-width: 600px) {
   body .topContentContainer .topBoxDisplay .box3 {
     border-bottom: 1px solid lightgrey;
+    border-right: 1px solid transparent;
   }
 }
 body .topContentContainer .topBoxDisplay .box5 {
   border-right: 1px solid lightgrey;
   border-top: 1px solid lightgrey;
+}
+@media (max-width: 600px) {
+  body .topContentContainer .topBoxDisplay .box5 {
+    border-right: 1px solid transparent;
+  }
 }
 body .topContentContainer .topBoxDisplay .box6 {
   border-top: 1px solid lightgrey;

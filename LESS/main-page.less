@@ -84,12 +84,17 @@ body{
 
             @media(max-width: 600px){
                 flex-direction: column;
+                border-radius: 0%;
             }
         
             
             .box1 {
                 border-right: 1px solid lightgrey;
                 border-bottom: 1px solid lightgrey;
+
+                @media(max-width: 600px){
+                    border-right: 1px solid transparent;
+                }
             }
 
             .box2 {
@@ -101,12 +106,17 @@ body{
 
                 @media(max-width: 600px){
                     border-bottom: 1px solid lightgrey;
+                    border-right: 1px solid transparent;
                 }
             }
 
             .box5 {
                 border-right: 1px solid lightgrey;
                 border-top: 1px solid lightgrey;
+
+                @media(max-width: 600px){
+                    border-right: 1px solid transparent;
+                }
             }
 
             .box6 {

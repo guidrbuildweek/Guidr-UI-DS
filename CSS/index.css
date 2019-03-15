@@ -339,6 +339,10 @@ body .topContentContainer .topBoxDisplay .topContentBox p {
   line-height: 2.5rem;
   padding-left: 10px;
 }
+body .lBTN {
+  text-decoration: none;
+  color: black;
+}
 body .tripPhoto {
   height: 150px;
   width: 60%;
